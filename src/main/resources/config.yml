@@ -1,0 +1,14 @@
+# RWemoji config
+# Type :heart: or :diamond_sword: in chat. Use /rwemoji list to browse all emojis.
+
+chat:
+  enabled: true
+signs:
+  enabled: true
+
+# Bedrock players (Floodgate/Geyser) cannot see sprites; they get plain text like [heart] instead.
+bedrock-fallback: true
+
+browser:
+  per-page: 30
+  columns: 3
