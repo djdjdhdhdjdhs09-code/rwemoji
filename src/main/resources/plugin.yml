@@ -1,0 +1,21 @@
+name: RWemoji
+main: rw.emoji.RWemoji
+version: 1.0
+api-version: '1.21.11'
+softdepend: [floodgate]
+description: Native Minecraft sprites as emoji shortcodes in chat and signs
+commands:
+  rwemoji:
+    description: Browse emojis and copy shortcodes
+    usage: /rwemoji <list [page]|search <text>|reload>
+    aliases: [emoji, emojis]
+permissions:
+  rwemoji.use:
+    description: Use :emoji: shortcodes in chat and signs
+    default: true
+  rwemoji.list:
+    description: Open the emoji browser
+    default: true
+  rwemoji.admin:
+    description: Reload the plugin
+    default: op
